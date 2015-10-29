@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DevDash</string>
+    <string name="et_packages_hint">com.example.*,com.turkidroid.devdash</string>
+    <string name="empty">Click on the edit button to add Apps to this widget.</string>
+</resources>

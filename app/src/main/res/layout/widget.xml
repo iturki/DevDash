@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/widget_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="DevDash"
+            android:textSize="@dimen/abc_text_size_large_material"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+        <ImageButton
+            android:id="@+id/widget_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_widget_edit"
+            android:background="@android:color/transparent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/widget_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWidgetBackground"
+        android:layout_below="@id/widget_header"
+        android:divider="@color/colorWidgetAppPackage"
+        android:dividerHeight="1dp"
+        android:padding="5dp"/>
+    <TextView
+        android:id="@+id/tv_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/widget_header"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="@dimen/abc_text_size_large_material"
+        android:background="@color/colorWidgetBackground"
+        android:textColor="@color/colorWidgetAppPackage"
+        android:text="@string/empty"
+        android:visibility="gone"/>
+</RelativeLayout>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorWidgetBackground">#EDEDED</color>
+    <color name="colorPrimary">#6c9ca4</color>
+    <color name="colorPrimaryDark">#597a80</color>
+    <color name="colorAccent">#ff9c40</color>
+    <color name="colorWidgetBackground">#f4f0e6</color>
     <color name="colorWidgetAppName">#000000</color>
     <color name="colorWidgetAppPackage">#787878</color>
 </resources>

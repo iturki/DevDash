@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">DevDash</string>
-    <string name="et_packages_hint">com.example.*,com.turkidroid.devdash</string>
+    <string name="et_packages_hint">com.example.*, com.turkidroid.devdash</string>
     <string name="empty">Click on the edit button to add Apps to this widget.</string>
+
+    <string name="tv_help"><b>Note:</b> to display apps in the Widget, enter the package name(s) in the above field. You can enter as mane packages as you want, separated by a comma \",\".\nYou can enter the full package name (<b>com.example.myapp</b>), or a partial package name (<b>com.example.*</b>). We will take care of the rest.\nDo not forget to add a DevDash widget to your home screen.</string>
+    <string name="toast_widget_updated">Widget updated successfully! %s apps added to the Widget</string>
+    <string name="tv_label">Package name(s):</string>
+
+    <string name="tv_about_app">DevDash - v%s</string>
+    <string name="tv_about_dev">Developed By: <a href="https://www.twitter.com/iTurki">Turki Alshammari</a></string>
+    <string name="btn_update_widget">Update Widget</string>
 </resources>

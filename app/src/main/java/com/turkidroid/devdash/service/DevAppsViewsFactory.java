@@ -120,7 +120,7 @@ public class DevAppsViewsFactory implements RemoteViewsService.RemoteViewsFactor
         String packages = pref.getString(MainActivity.PREF_KEY_PACKAGES, "");
         mAppsList.clear();
         mAppsList = getAppsList(packages);
-        toast("Widget updated successfully!");
+        toast(mContext.getString(R.string.toast_widget_updated, mAppsList.size()));
     }
 
 
